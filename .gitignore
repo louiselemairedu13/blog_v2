@@ -1,1 +1,4 @@
 *.pyc
+db.sqlite3
+myvenv
+.DS_store
