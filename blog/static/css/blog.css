@@ -3,7 +3,8 @@ h1 a, h2 a {
 }
 
 body {
-    padding-left: 15px;
+ 
+    background-color: #F3F7FA;
 }
 
 h1 a, h2 a {
@@ -15,6 +16,7 @@ h1 a, h2 a {
     background-color: #479CE6;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
+
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
@@ -52,9 +54,15 @@ h1, h2, h3, h4 {
 
 .post {
     margin-bottom: 70px;
+    color: #757C82;
 }
 
 .post h2 a, .post h2 a:visited {
     color: ##479CE6;
+}
+
+.comment {
+    margin: 20px 0px 20px 20px;
+    color: #828282;
 }
 
