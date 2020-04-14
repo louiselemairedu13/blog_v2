@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
         <link href='//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        
     </head>
     <body>
          <div class="page-header">
@@ -19,7 +20,13 @@
             {% endif %}
             <h1><a href="/">Yoga with Louise Anne</a></h1>
         </div>
-        <div class="content container">
+        <div>
+            <img src="{% static "image/home-image.png" %}" alt="My image" class="home-image" id="image-ciel">
+            <p  id="home-quote">"Le yoga est le passeport que prend le corps pour franchir les frontières de l'esprit". Davina Delor</p>
+            <img src="{% static "image/home-image-2.png" %}" alt="My image 2" class="home-image" id="image-mer">
+        </div>
+        <br><br>
+        <div class="content container" class="content-container">
             <div class="row">
                 <div class="col-md-8">
                 {% block content %}

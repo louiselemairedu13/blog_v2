@@ -64,5 +64,69 @@ h1, h2, h3, h4 {
 .comment {
     margin: 20px 0px 20px 20px;
     color: #828282;
+
 }
+
+.ligne {
+   
+    border-top: 1px dashed #8c8b8b;
+  
+}
+
+.home-image {
+
+    border-radius: 50%;
+    width: 375px;
+    height: 375px;
+    position: relative;
+
+
+	}
+
+#image-ciel {
+
+    left: 10%;
+
+    
+
+
+
+}
+
+#image-mer {
+
+    left: 35%;
+
+
+}
+
+#home-quote {
+
+
+	
+	
+	width: 200px;
+   
+
+
+}
+
+.content-container {
+
+    margin-top: 500px;
+    z-index: -1;
+    top: 600px;
+    position: relative;
+    bottom: -100px;
+
+
+
+    }
+
+div {
+
+position: relative;
+
+}
+
 
