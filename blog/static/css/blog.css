@@ -1,19 +1,19 @@
 h1 a, h2 a {
-    color: ##479CE6;
+    color: #4eb2af;
 }
 
 body {
  
-    background-color: #F3F7FA;
+    background: linear-gradient(to right, #ffffff, #c2e8ea, #b0e0e6);
 }
 
 h1 a, h2 a {
-    color: #479CE6;
+    color: #4eb2af;
     font-family: 'Lobster';
 }
 
 .page-header {
-    background-color: #479CE6;
+    background-color: #4eb2af;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 
@@ -58,7 +58,7 @@ h1, h2, h3, h4 {
 }
 
 .post h2 a, .post h2 a:visited {
-    color: ##479CE6;
+    color: #4eb2af;
 }
 
 .comment {
@@ -76,57 +76,32 @@ h1, h2, h3, h4 {
 .home-image {
 
     border-radius: 50%;
+    border: 1px solid #b5c2ff;
+    border-width: 5px;
     width: 375px;
     height: 375px;
-    position: relative;
-
-
 	}
 
-#image-ciel {
-
-    left: 10%;
-
-    
 
 
 
-}
-
-#image-mer {
-
-    left: 35%;
 
 
-}
-
-#home-quote {
-
-
-	
-	
-	width: 200px;
-   
-
-
-}
-
-.content-container {
-
-    margin-top: 500px;
-    z-index: -1;
-    top: 600px;
-    position: relative;
-    bottom: -100px;
-
-
-
-    }
-
-div {
-
-position: relative;
-
+.row-images {
+	display: flex;
+    flex-direction: row;
+  	justify-content: space-around;
+  	align-items: center;
 }
 
 
+.home-quote {
+	width: 250px;
+	text-align: justify;
+	justify-content: center;
+	margin: 50px;
+	vertical-align: middle;
+	transform: scale(2);
+	font-family: Indie Flower, Latin;
+	color: green;
+}
